@@ -31,4 +31,4 @@ if __name__=="__main__":
     qurey = input("Enter your Qurey: ")
     result = asyncio.run(main(qurey))
     
-    print(f"\n\n{100*"-"}\nSearch Volume: {result}\n{100*"-"}")
+    print(f"\n\n{100*"-"}\nQuery: {qurey}\nSearch Volume: {result}\n{100*"-"}")
