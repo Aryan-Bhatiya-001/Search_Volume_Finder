@@ -17,7 +17,6 @@ async def main(qurey: str)->int:
     # Now calculate the Search Volume
     try:
         search_volume = (list_data[-1]/sum(list_data))*page_count
-        print(len(list_data))
         return int(search_volume)
     except Exception as e:
         print(f"No data shown fetched : {e}")
