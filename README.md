@@ -41,7 +41,7 @@ This tool uses browser automation to:
    
    **Installing Visual Studio Build Tools:**
    
-   1. Go to [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/)
+   1. Go to [Visual Studio Downloads](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
    2. Scroll down to "Tools for Visual Studio" and download "Build Tools for Visual Studio 2022"
    3. Run the installer
    4. In the Visual Studio Installer, select the "Desktop development with C++" workload
