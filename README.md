@@ -12,7 +12,7 @@ This tool uses browser automation to:
 ## Installation
 
 ### Prerequisites
-- Python 3.8+
+- Python 3.10+
 - pip
 
 ### Setup
