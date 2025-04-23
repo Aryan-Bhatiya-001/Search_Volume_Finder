@@ -41,17 +41,16 @@ This tool uses browser automation to:
    
    **Installing Visual Studio Build Tools:**
    
-   1. Go to [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/)
-   2. Scroll down to "Tools for Visual Studio" and download "Build Tools for Visual Studio 2022"
-   3. Run the installer
-   4. In the Visual Studio Installer, select the "Desktop development with C++" workload
-   5. Make sure the following components are selected:
+   1. Download the Visual Studio Build Tools directly from [this link](https://aka.ms/vs/17/release/vs_BuildTools.exe)
+   2. Run the installer
+   3. In the Visual Studio Installer, select the "Desktop development with C++" workload
+   4. Make sure the following components are selected:
       - MSVC C++ x64/x86 build tools
       - Windows 10/11 SDK
       - C++ CMake tools for Windows
-   6. Click "Install" (this may take some time)
-   7. After installation completes, restart your computer
-   8. Open a new command prompt and activate your virtual environment again before continuing
+   5. Click "Install" (this may take some time)
+   6. After installation completes, restart your computer
+   7. Open a new command prompt and activate your virtual environment again before continuing
 
    **Note:** If you already have Visual Studio installed (not just the Build Tools), make sure you have the "Desktop development with C++" workload installed through the Visual Studio Installer.
 
