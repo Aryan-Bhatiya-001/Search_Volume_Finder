@@ -39,21 +39,20 @@ This tool uses browser automation to:
    
    Before installing the requirements, Windows users need to install C++ build tools to avoid errors with packages like `faust-cchardet`:
    
-   **Installing Visual Studio Build Tools:**
+   **Option 1: Visual Studio Build Tools**
+   - Download and install [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+   - During installation, select "C++ build tools" workload
+   - Make sure the following components are selected:
+     - MSVC C++ build tools
+     - Windows 10/11 SDK
    
-   1. Go to [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/)
-   2. Scroll down to "Tools for Visual Studio" and download "Build Tools for Visual Studio 2022"
-   3. Run the installer
-   4. In the Visual Studio Installer, select the "Desktop development with C++" workload
-   5. Make sure the following components are selected:
-      - MSVC C++ x64/x86 build tools
-      - Windows 10/11 SDK
-      - C++ CMake tools for Windows
-   6. Click "Install" (this may take some time)
-   7. After installation completes, restart your computer
-   8. Open a new command prompt and activate your virtual environment again before continuing
-
-   **Note:** If you already have Visual Studio installed (not just the Build Tools), make sure you have the "Desktop development with C++" workload installed through the Visual Studio Installer.
+   **Option 2: Using pip to install pre-built wheels**
+   ```bash
+   pip install --upgrade pip
+   pip install wheel
+   ```
+   
+   After installing build tools, restart your command prompt before continuing.
 
 4. **Install dependencies**
    ```bash
